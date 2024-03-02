@@ -7,7 +7,6 @@
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_933237_inventory.x_im_admin</name>
-        <requires_subscription>-1</requires_subscription>
         <scoped_admin>false</scoped_admin>
         <suffix>x_933237_inventory.x_im_admin</suffix>
         <sys_class_name>sys_user_role</sys_class_name>

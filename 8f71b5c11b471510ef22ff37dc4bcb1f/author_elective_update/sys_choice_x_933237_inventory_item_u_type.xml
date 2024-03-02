@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-11-07 06:54:34</sys_created_on>
-            <sys_id>66bf35092f03111060d3d49df699b64f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_type</sys_name>
             <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2022-11-07 06:54:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>eebf35092f03111060d3d49df699b64e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-11-07 06:54:34</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2022-11-07 06:54:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>22bf35092f03111060d3d49df699b651</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-11-07 06:54:34</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2022-11-07 06:54:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>aebf35092f03111060d3d49df699b651</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-11-07 06:54:34</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2022-11-07 06:54:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3ebf35092f03111060d3d49df699b652</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-11-07 06:54:34</sys_updated_on>
@@ -110,7 +105,6 @@
             <sys_created_on>2022-11-07 06:54:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>babf35092f03111060d3d49df699b653</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-11-07 06:54:34</sys_updated_on>

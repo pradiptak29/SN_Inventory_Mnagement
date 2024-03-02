@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-11-09 11:42:54</sys_updated_on>
         <sys_user_role display_value="x_933237_inventory.Vendor_User" name="x_933237_inventory.Vendor_User">326d45712f4b911060d3d49df699b642</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

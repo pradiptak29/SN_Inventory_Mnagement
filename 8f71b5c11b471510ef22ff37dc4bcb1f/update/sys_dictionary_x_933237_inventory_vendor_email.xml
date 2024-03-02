@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-07 06:25:39</sys_created_on>
-        <sys_id>b9b831491b471510ef22ff37dc4bcb61</sys_id>
         <sys_name>Email</sys_name>
         <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
         <sys_policy/>

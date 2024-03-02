@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-11-07 07:21:23</sys_updated_on>
         <sys_user_role display_value="x_933237_inventory.purchase_order_user" name="x_933237_inventory.purchase_order_user">97d5464d2f03111060d3d49df699b638</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

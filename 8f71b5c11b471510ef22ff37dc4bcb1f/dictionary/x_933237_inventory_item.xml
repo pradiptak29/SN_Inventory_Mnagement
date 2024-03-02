@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="06ebf5052f03111060d3d49df699b6b6" label="item" max_length="40" name="x_933237_inventory_item" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_type" dependent_on_field="u_type" label="Name" mandatory="true" max_length="40" name="u_name" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="accessories" inactive_on_update="false" label="Bag" sequence="0" value="Bag"/>
+                <element dependent_value="footwear" inactive_on_update="false" label="Formal Shoes" sequence="0" value="Formal Shoes"/>
+                <element dependent_value="clothing" inactive_on_update="false" label="Shirt" sequence="0" value="Shirt"/>
+                <element dependent_value="furniture" inactive_on_update="false" label="Sofa" sequence="0" value="Sofa"/>
+                <element dependent_value="electronics" inactive_on_update="false" label="TV" sequence="0" value="TV"/>
+                <element dependent_value="furniture" inactive_on_update="false" label="Dininig Table" sequence="1" value="Dininig Table"/>
+                <element dependent_value="electronics" inactive_on_update="false" label="Laptop" sequence="1" value="Laptop"/>
+                <element dependent_value="clothing" inactive_on_update="false" label="Paint" sequence="1" value="Paint"/>
+                <element dependent_value="footwear" inactive_on_update="false" label="Sports Shoes" sequence="1" value="Sports Shoes"/>
+                <element dependent_value="accessories" inactive_on_update="false" label="Sunglasses" sequence="1" value="Sunglasses"/>
+                <element dependent_value="electronics" inactive_on_update="false" label="Camera" sequence="2" value="Camera"/>
+                <element dependent_value="furniture" inactive_on_update="false" label="Chair" sequence="2" value="Chair"/>
+                <element dependent_value="clothing" inactive_on_update="false" label="Jeans" sequence="2" value="Jeans"/>
+                <element dependent_value="accessories" inactive_on_update="false" label="Mobile Covers" sequence="2" value="Mobile Covers"/>
+                <element dependent_value="footwear" inactive_on_update="false" label="Sneakers" sequence="2" value="Sneakers"/>
+                <element dependent_value="furniture" inactive_on_update="false" label="Bed" sequence="3" value="Bed"/>
+                <element dependent_value="footwear" inactive_on_update="false" label="Loaffer" sequence="3" value="Loaffer"/>
+                <element dependent_value="electronics" inactive_on_update="false" label="Mobile" sequence="3" value="Mobile"/>
+                <element dependent_value="clothing" inactive_on_update="false" label="t-shirt" sequence="3" value="t-shirt"/>
+                <element dependent_value="accessories" inactive_on_update="false" label="Wallet" sequence="3" value="Wallet"/>
+                <element dependent_value="clothing" inactive_on_update="false" label="Kurta" sequence="4" value="Kurta"/>
+                <element dependent_value="electronics" inactive_on_update="false" label="Mixer grinder" sequence="4" value="Mixer grinder"/>
+                <element dependent_value="footwear" inactive_on_update="false" label="Slippers" sequence="4" value="Slippers"/>
+                <element dependent_value="furniture" inactive_on_update="false" label="Study Table" sequence="4" value="Study Table"/>
+                <element dependent_value="accessories" inactive_on_update="false" label="Trimmer" sequence="4" value="Trimmer"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Price" mandatory="true" max_length="20" name="u_price" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" mandatory="true" max_length="40" name="u_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Footwear" sequence="0" value="footwear"/>
+                <element inactive_on_update="false" label="Furniture" sequence="1" value="furniture"/>
+                <element inactive_on_update="false" label="Clothing" sequence="2" value="clothing"/>
+                <element inactive_on_update="false" label="Accessories" sequence="3" value="accessories"/>
+                <element inactive_on_update="false" label="Electronics" sequence="4" value="electronics"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Vendor" max_length="32" name="vendor" reference="x_933237_inventory_vendor" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

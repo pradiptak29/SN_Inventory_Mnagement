@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
-        <group_id display_value="Process Owner" name="Process Owner">5f1960fd2f87911060d3d49df699b6b6</group_id>
+        <group_id display_value="">5f1960fd2f87911060d3d49df699b6b6</group_id>
         <report_id display_value="Purchase Order">63ec68fd2f87911060d3d49df699b6c8</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>

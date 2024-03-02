@@ -9,11 +9,10 @@
         <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Inventory Management">8f71b5c11b471510ef22ff37dc4bcb1f</sys_scope>
-        <sys_security_acl display_value="">cb8d89712f4b911060d3d49df699b69d</sys_security_acl>
+        <sys_security_acl display_value="x_933237_inventory_vendor.*">cb8d89712f4b911060d3d49df699b69d</sys_security_acl>
         <sys_update_name>sys_security_acl_role_18bd49712f4b911060d3d49df699b66b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-11-09 11:11:53</sys_updated_on>
         <sys_user_role display_value="x_933237_inventory.Vendor_Manager" name="x_933237_inventory.Vendor_Manager">e35d85712f4b911060d3d49df699b6dc</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

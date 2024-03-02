@@ -2,7 +2,7 @@
     <pa_tabs action="INSERT_OR_UPDATE">
         <canvas_page display_value="PA Purchase Order - New Tab">aa6ba0312fc7911060d3d49df699b62e</canvas_page>
         <name>Purchase Order - New Tab</name>
-        <page display_value="PA Purchase Order - New Tab">666ba0312fc7911060d3d49df699b62d</page>
+        <page display_value="">666ba0312fc7911060d3d49df699b62d</page>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-09 08:41:38</sys_created_on>

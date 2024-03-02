@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
     <sys_grid_canvas action="INSERT_OR_UPDATE">
-        <legacy_page display_value="PA Purchase Order - New Tab">666ba0312fc7911060d3d49df699b62d</legacy_page>
+        <legacy_page display_value="">666ba0312fc7911060d3d49df699b62d</legacy_page>
         <name>PA Purchase Order - New Tab</name>
         <sys_class_name>sys_grid_canvas</sys_class_name>
         <sys_created_by>admin</sys_created_by>

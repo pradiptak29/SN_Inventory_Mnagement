@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>comments</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +20,8 @@
         <sys_updated_on>2022-11-09 18:30:02</sys_updated_on>
         <table>x_933237_inventory_purchase_order</table>
         <ui_policy display_value="Make Additional Comments Mandatory when approval gets rejected.">82b1be3d2f8f911060d3d49df699b681</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

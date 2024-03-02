@@ -2,7 +2,7 @@
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
         <dashboard display_value="Purchase Order">297a68fd2f87911060d3d49df699b6ce</dashboard>
         <delete>false</delete>
-        <group display_value="Process Owner" name="Process Owner">5f1960fd2f87911060d3d49df699b6b6</group>
+        <group display_value="">5f1960fd2f87911060d3d49df699b6b6</group>
         <identity>5f1960fd2f87911060d3d49df699b6b6</identity>
         <read>true</read>
         <role/>

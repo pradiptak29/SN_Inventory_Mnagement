@@ -7,7 +7,6 @@
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_933237_inventory.Vendor_Manager</name>
-        <requires_subscription>-1</requires_subscription>
         <scoped_admin>false</scoped_admin>
         <suffix>Vendor_Manager</suffix>
         <sys_class_name>sys_user_role</sys_class_name>

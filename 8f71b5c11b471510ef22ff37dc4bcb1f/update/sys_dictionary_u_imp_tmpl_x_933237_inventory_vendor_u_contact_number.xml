@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_contact_number" table="u_imp_tmpl_x_933237_inventory_vendor">
         <active>true</active>
         <array>false</array>
-        <attributes>import_attribute_name=Contact Number</attributes>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Contact Number</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-08 09:47:16</sys_created_on>
-        <sys_id>1ed0bf192f47511060d3d49df699b6d9</sys_id>
         <sys_name>Contact Number</sys_name>
         <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
         <sys_policy/>

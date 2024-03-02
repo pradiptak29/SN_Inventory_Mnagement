@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_total_cost" table="x_933237_inventory_purchase_order">
         <active>true</active>
         <array>false</array>
-        <attributes>omit_sys_original=true</attributes>
+        <attributes>edge_encryption_enabled=true,omit_sys_original=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
     var x = current.u_quantity;
@@ -51,7 +51,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-07 08:55:21</sys_created_on>
-        <sys_id>bb5b1e412f83111060d3d49df699b666</sys_id>
         <sys_name>Total Cost</sys_name>
         <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
         <sys_policy/>
