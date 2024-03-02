@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>purchase_order_view</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 08:27:32</sys_created_on>
+        <sys_id>3dc1b10a2f4bd11060d3d49df699b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Purchase Order View</sys_name>
+        <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Management">8f71b5c11b471510ef22ff37dc4bcb1f</sys_scope>
+        <sys_update_name>sys_ui_view_3dc1b10a2f4bd11060d3d49df699b68f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-10 08:27:32</sys_updated_on>
+        <title>Purchase Order View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

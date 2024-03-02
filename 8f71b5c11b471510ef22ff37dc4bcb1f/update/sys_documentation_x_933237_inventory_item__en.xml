@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="item" language="en" table="x_933237_inventory_item">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>item</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <plural>items</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 06:41:57</sys_created_on>
+            <sys_id>35dcb5452f03111060d3d49df699b682</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>item</sys_name>
+            <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Inventory Management">8f71b5c11b471510ef22ff37dc4bcb1f</sys_scope>
+            <sys_update_name>sys_documentation_x_933237_inventory_item__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 06:41:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

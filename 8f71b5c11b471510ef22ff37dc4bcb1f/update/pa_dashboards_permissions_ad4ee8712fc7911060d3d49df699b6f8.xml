@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Purchase Order">297a68fd2f87911060d3d49df699b6ce</dashboard>
+        <delete>false</delete>
+        <group display_value="Process Owner" name="Process Owner">5f1960fd2f87911060d3d49df699b6b6</group>
+        <identity>5f1960fd2f87911060d3d49df699b6b6</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-09 08:54:08</sys_created_on>
+        <sys_id>ad4ee8712fc7911060d3d49df699b6f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5f1960fd2f87911060d3d49df699b6b6</sys_name>
+        <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Management">8f71b5c11b471510ef22ff37dc4bcb1f</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_ad4ee8712fc7911060d3d49df699b6f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-09 08:54:08</sys_updated_on>
+        <type>2</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

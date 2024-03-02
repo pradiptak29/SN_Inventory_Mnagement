@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_933237_inventory.TotalCost</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>TotalCost</name>
+        <script><![CDATA[var TotalCost = Class.create();
+TotalCost.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    total: function() {
+        var item = this.getParameter("sysparam_item");
+        var gr = new GlideRecord("x_933237_inventory_item");
+        gr.addQuery("sys_id", item);
+        gr.query();
+        if (gr.next()) {
+            return gr.u_price;
+        }
+        return 0;
+
+
+    },
+
+    type: 'TotalCost'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 09:44:48</sys_created_on>
+        <sys_id>0426220d2f83111060d3d49df699b6ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TotalCost</sys_name>
+        <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Inventory Management">8f71b5c11b471510ef22ff37dc4bcb1f</sys_scope>
+        <sys_update_name>sys_script_include_0426220d2f83111060d3d49df699b6ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-08 07:03:59</sys_updated_on>
+    </sys_script_include>
+</record_update>

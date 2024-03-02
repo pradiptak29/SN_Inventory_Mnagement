@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_name" table="x_933237_inventory_item" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_name</element>
+            <name>x_933237_inventory_item</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 06:58:13</sys_created_on>
+            <sys_id>9090ce092f03111060d3d49df699b686</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_name</sys_name>
+            <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Inventory Management">8f71b5c11b471510ef22ff37dc4bcb1f</sys_scope>
+            <sys_update_name>sys_choice_x_933237_inventory_item_u_name</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 06:58:13</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>accessories</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bag</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:10:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2343cac92f03111060d3d49df699b6ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:10:11</sys_updated_on>
+            <value>Bag</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>footwear</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Formal Shoes</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 06:58:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c90ce092f03111060d3d49df699b685</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 06:58:13</sys_updated_on>
+            <value>Formal Shoes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>clothing</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Shirt</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:09:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab03ce092f03111060d3d49df699b6a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:09:06</sys_updated_on>
+            <value>Shirt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>furniture</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sofa</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:02:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04a10e092f03111060d3d49df699b6d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:02:51</sys_updated_on>
+            <value>Sofa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>electronics</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TV</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:12:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ac3cac92f03111060d3d49df699b6f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:12:16</sys_updated_on>
+            <value>TV</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>furniture</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dininig Table</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:02:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04a10e092f03111060d3d49df699b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:02:51</sys_updated_on>
+            <value>Dininig Table</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>electronics</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laptop</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:12:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ac3cac92f03111060d3d49df699b6f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:12:16</sys_updated_on>
+            <value>Laptop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>clothing</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Paint</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:09:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b03ce092f03111060d3d49df699b6a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:09:06</sys_updated_on>
+            <value>Paint</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>footwear</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sports Shoes</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 06:58:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d490ce092f03111060d3d49df699b687</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 06:58:13</sys_updated_on>
+            <value>Sports Shoes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>accessories</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sunglasses</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:10:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef43cac92f03111060d3d49df699b6ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:10:11</sys_updated_on>
+            <value>Sunglasses</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>electronics</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Camera</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:12:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ac3cac92f03111060d3d49df699b6f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:12:16</sys_updated_on>
+            <value>Camera</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>furniture</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chair</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:02:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0a10e092f03111060d3d49df699b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:02:51</sys_updated_on>
+            <value>Chair</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>clothing</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jeans</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:09:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b03ce092f03111060d3d49df699b6a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:09:06</sys_updated_on>
+            <value>Jeans</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>accessories</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobile Covers</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:10:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af43cac92f03111060d3d49df699b6ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:10:11</sys_updated_on>
+            <value>Mobile Covers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>footwear</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sneakers</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 06:58:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9490ce092f03111060d3d49df699b688</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 06:58:13</sys_updated_on>
+            <value>Sneakers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>furniture</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bed</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:02:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80a10e092f03111060d3d49df699b6d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:02:51</sys_updated_on>
+            <value>Bed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>footwear</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Loaffer</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 06:58:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5490ce092f03111060d3d49df699b689</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 06:58:13</sys_updated_on>
+            <value>Loaffer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>electronics</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobile</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:12:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6c3cac92f03111060d3d49df699b6f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:12:16</sys_updated_on>
+            <value>Mobile</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>clothing</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>t-shirt</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:09:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e703ce092f03111060d3d49df699b6a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:09:06</sys_updated_on>
+            <value>t-shirt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>accessories</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wallet</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:10:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f43cac92f03111060d3d49df699b6ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:10:11</sys_updated_on>
+            <value>Wallet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>clothing</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kurta</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:09:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a703ce092f03111060d3d49df699b6a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:09:06</sys_updated_on>
+            <value>Kurta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>electronics</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mixer grinder</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:12:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cac3c20d2f03111060d3d49df699b61d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:12:16</sys_updated_on>
+            <value>Mixer grinder</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>footwear</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Slippers</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 06:58:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1490ce092f03111060d3d49df699b68a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 06:58:13</sys_updated_on>
+            <value>Slippers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>furniture</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Study Table</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:02:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40a10e092f03111060d3d49df699b6d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:02:51</sys_updated_on>
+            <value>Study Table</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>accessories</dependent_value>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Trimmer</label>
+            <language>en</language>
+            <name>x_933237_inventory_item</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 07:10:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f43cac92f03111060d3d49df699b6f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 07:10:11</sys_updated_on>
+            <value>Trimmer</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
