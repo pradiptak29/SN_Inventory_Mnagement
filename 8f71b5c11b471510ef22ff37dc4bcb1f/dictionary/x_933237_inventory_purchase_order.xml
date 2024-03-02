@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7005464d2f03111060d3d49df699b630" extends="task" label="Purchase Order" max_length="40" name="x_933237_inventory_purchase_order" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date of purchase" max_length="40" name="u_date_of_purchase" read_only="true" type="glide_date" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Item" mandatory="true" max_length="32" name="u_item" reference="x_933237_inventory_item" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Quantity" mandatory="true" max_length="40" name="u_quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requestor" mandatory="true" max_length="32" name="u_requestor" reference="sys_user" reference_qual="managerISNOTEMPTY^EQ" reference_qual_condition="managerISNOTEMPTY^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="draft" label="Status" max_length="40" name="u_status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="1" value="pending_approval"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Complete" sequence="3" value="complete"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Summary" mandatory="true" max_length="40" name="u_summary" type="string"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" calculation="(function calculatedFieldValue(current) {&#10;    var x = current.u_quantity;&#10;    var y = current.u_item.u_price;&#10;    return x * y; // return the calculated value&#10;})(current);" label="Total Cost" max_length="20" name="u_total_cost" read_only="true" type="currency" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Vendor" max_length="32" name="u_vendor" read_only="true" reference="x_933237_inventory_vendor" type="reference"/>
+    </element>
+</database>

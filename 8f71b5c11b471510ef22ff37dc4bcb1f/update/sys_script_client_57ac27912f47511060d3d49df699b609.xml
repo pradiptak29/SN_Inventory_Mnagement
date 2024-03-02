@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_item</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Total Cost Calculator</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var a = g_form.getValue('u_quantity');//quantity-PO
+    var b = g_form.getReference('u_item', total);//item-PO
+    function total(b) {
+        var d = b.u_price;//price-Item
+        var c = a * d;
+        alert(c);
+        g_form.setValue('u_total_cost', c);//total cost-PO
+    }
+
+
+
+   //Type appropriate comment here, and begin script below
+
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-08 09:32:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57ac27912f47511060d3d49df699b609</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Total Cost Calculator</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Management">8f71b5c11b471510ef22ff37dc4bcb1f</sys_scope>
+        <sys_update_name>sys_script_client_57ac27912f47511060d3d49df699b609</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-08 09:33:42</sys_updated_on>
+        <table>x_933237_inventory_purchase_order</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

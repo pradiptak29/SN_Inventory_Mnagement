@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_933237_inventory_purchase_order">u_status=pending_approval^EQ<item display_value="Pending Approval" endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="false" value="pending_approval"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description><![CDATA[<p>Status is <strong>Pending Approval.</strong></p>]]></description>
+        <label>Pending Approval</label>
+        <name>Process Flow PO_Pending Approval</name>
+        <order>200</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-08 04:52:40</sys_created_on>
+        <sys_id>653d6e552f43511060d3d49df699b62d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Process Flow PO_Pending Approval</sys_name>
+        <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Management">8f71b5c11b471510ef22ff37dc4bcb1f</sys_scope>
+        <sys_update_name>sys_process_flow_653d6e552f43511060d3d49df699b62d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-09 05:40:12</sys_updated_on>
+        <table>x_933237_inventory_purchase_order</table>
+    </sys_process_flow>
+</record_update>

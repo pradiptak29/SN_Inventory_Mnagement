@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_933237_inventory.VendorGroupPop</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>VendorGroupPop</name>
+        <script><![CDATA[var VendorGroupPop = Class.create();
+VendorGroupPop.prototype = {
+    initialize: function() {},
+
+    pop: function() {
+        var grm = "";
+        var gr = new GlideRecord("sys_user_grmember");
+        gr.addQuery("group", "f3e0e15a976402101b8e793de053afe5");
+        gr.query();
+        while (gr.next()) {
+            grm += gr.user.sys_id + ",";
+        }
+        return "sys_idIN" + grm;
+    },
+	
+    type: 'VendorGroupPop'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-08 09:40:44</sys_created_on>
+        <sys_id>abeeaf952f47511060d3d49df699b6ae</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>VendorGroupPop</sys_name>
+        <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Inventory Management">8f71b5c11b471510ef22ff37dc4bcb1f</sys_scope>
+        <sys_update_name>sys_script_include_abeeaf952f47511060d3d49df699b6ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 07:52:01</sys_updated_on>
+    </sys_script_include>
+</record_update>

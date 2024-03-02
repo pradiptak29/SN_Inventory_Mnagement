@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>contact_number</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>contactNumber10DigitsOnCell</name>
+        <order/>
+        <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+  var saveAndClose = true;
+ //Type appropriate comment here, and begin script below
+	var hasError = false;
+	var value = g_form.getValue('contact_number');
+	if (value.match(/^[0-9]+$/) == null || value.length != 10) {
+		hasError = true;
+	}
+	if (hasError) {
+		alert("Contact number should accept only 10 digit number");
+	}
+ callback(saveAndClose); 
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-09 08:28:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7b77e8312f87911060d3d49df699b60b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>contactNumber10DigitsOnCell</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Management">8f71b5c11b471510ef22ff37dc4bcb1f</sys_scope>
+        <sys_update_name>sys_script_client_7b77e8312f87911060d3d49df699b60b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-11 09:49:34</sys_updated_on>
+        <table>x_933237_inventory_vendor</table>
+        <type>onCellEdit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

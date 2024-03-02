@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_933237_inventory.Vendor_Manager</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>Vendor_Manager</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-09 11:10:08</sys_created_on>
+        <sys_id>e35d85712f4b911060d3d49df699b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_933237_inventory.Vendor_Manager</sys_name>
+        <sys_package display_value="Inventory Management" source="x_933237_inventory">8f71b5c11b471510ef22ff37dc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Management">8f71b5c11b471510ef22ff37dc4bcb1f</sys_scope>
+        <sys_update_name>sys_user_role_e35d85712f4b911060d3d49df699b6dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-09 11:10:08</sys_updated_on>
+    </sys_user_role>
+</record_update>
